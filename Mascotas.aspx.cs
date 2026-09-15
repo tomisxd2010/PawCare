@@ -12,6 +12,7 @@ namespace PawCare
         {
             if (!IsPostBack)
             {
+                // Cargar mascotas al iniciar
                 ListarMascotas();
             }
         }
